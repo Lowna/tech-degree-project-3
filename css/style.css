@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ===============================================
+Base styling
+=================================================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: auto;
+    text-align: center;
+    background: #fff;
+}
+
+/* header */
+
+header {
+    background: #2d3945;
+    color: #fff;
+    padding: 2em;
+}
+/* .container */
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+/* banner */
+.banner {
+    padding: 2em;
+    border-bottom: 3px solid #2d3945;
+}
+.banner h2 {
+    color: #2d3945;
+    margin-bottom: 15px;
+}
+.banner p {
+    color: #a4a9ae;
+    margin-bottom: 25px;
+}
+
+/* main */
+main { 
+    border-top: 2px solid #2d3945;
+    margin-top: 3px;
+}
+.news {
+    border-top: 2px solid #2d3945;
+    margin-top: 30px;
+}
+
+/* form */
+
+form {
+   text-align: left; 
+}
+h2 {
+    padding: 15px 0 15px 0;    
+    }
+fieldset {
+    border: none;
+}
+legend {
+    text-align: left;
+}
+label {
+    display: inline;
+    color: #55687a;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background: #eff0f1;
+    color: #adb2b7;
+}
+#name, #mail {
+    text-align: right;
+}
+#zip {
+    width: 50%;
+}
+input,
+radio {
+    margin: 15px 15px 15px 0;
+}
+button, .btn {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    padding: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background: #4ebbb5;
+    color: #fff;
+}
+button:hover {
+    background: #fff;
+    color: #4ebbb5;
+    border: 1px solid #4ebbb5;
+    transition: all 0.5s ease-in;
+}
+
+
+/* form */
+
+footer #copyright {
+    padding: 1em 1em 4em 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

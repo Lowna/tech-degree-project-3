@@ -4,39 +4,41 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Untitled Document</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header><!--header-->
         <h1>The Code Review</h1>
     </header><!--/header-->
+    
     <div class="container"><!--container-->
         <div class="banner"><!--banner-->
             <h2>Sign up for our newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
-            <hr>
         </div><!--/banner-->
     <main><!--main-->
         <form action="index.html" method="post"><!--form-->
             <h2>Contact Information</h2>
             
-                <fieldset>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" placeholder="required" required>
+                <fieldset class="row">
+                
+                    <label for="name" class="col">Name:</label>
+                    <input type="text" id="name" name="user_name" placeholder="required" required class="col">
+            
+                    <label for="mail" class="col">Email:</label>
+                    <input type="email" id="mail" name="user_email" placeholder="required" required class="col">
+             
+                    <label for="phone" class="col">Phone:</label>
+                    <input type="tel" id="phone" name="user_phone" placeholder="999-999-9999" class="col">
 
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" placeholder="required" required>
+                    <label for="address" class="col">Address:</label>
+                    <input type="text" id="address" name="user_address" placeholder="your address" class="col">
 
-                    <label for="phone">Phone:</label>
-                    <input type="phone" id="phone" name="user_phone">
+                    <label for="city" class="col">City:</label>
+                    <input type="text" id="city" name="user_city" placeholder="city" class="col">
 
-                    <label for="address">Address:</label>
-                    <input type="address" id="address" name="user_address">
-
-                    <label for="city">City:</label>
-                    <input type="city" id="city" name="user_city">
-
-                    <label for="state">State:</label>
-                        <select id="state" name="user_state">
+                    <label for="state" class="col">State:</label>
+                        <select id="state" name="user_state" class="col">
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
                             <option value="AZ">Arizona</option>
@@ -90,21 +92,34 @@
                             <option value="WY">Wyoming</option>
                         </select>
 
-                    <label for="zip">Zip Code:</label>
-                    <input type="zip" id="zip" name="user_zip">
+                    <label for="zip" class="col">Zip Code:</label><br>
+                    <input type="text" id="zip" name="user_zip" placeholder="99999" class="col">
                 </fieldset>
-             <h2>Newsletter</h2>
+             <h2 class="news">Newsletter</h2>
                 <legend>Select the newsletters you would like to receive</legend>
                 <fieldset>
+                   <input type="checkbox" id="html" value="html_news" name="user_newsletter" class="check_radio">
+                   <label for="html">HTML News</label><br>
                    
+                   <input type="checkbox" id="css" value="css_news" name="user_newsletter" class="check_radio">
+                   <label for="css">CSS News</label><br>
+                   
+                   <input type="checkbox" id="javascript" value="javascript_news" name="user_newsletter" class="check_radio">
+                   <label for="javascript">Javascript News</label><br>
                 </fieldset>
+                
                 <legend>Newsletter format</legend>
                 <fieldset>
+                   <input type="radio" id="html_pref" value="html_pref" name="user_pref" class="check_radio">
+                   <label for="html_pref">HTML</label><br>
                    
+                   <input type="radio" id="plain_pref" value="plain_pref" name="user_pref" class="check_radio">
+                   <label for="plain_pref">Plain text</label><br>
                 </fieldset>
                 <legend>Other topics you&#39;d like to hear about</legend>
                 <textarea name="user_topics" id="topic" cols="30" rows="10"></textarea>
-                <button type="submit">Sign Up</button>
+                <br>
+                <button class-"btn" type="submit">Sign Up</button>
         </form><!--/form-->
     </main><!--/main-->
     <footer>
