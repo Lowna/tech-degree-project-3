@@ -14,6 +14,8 @@ body {
     margin: auto;
     text-align: center;
     background: #fff;
+    font-size: 1em;
+    line-height: 1.7;
 }
 
 /* header */
@@ -104,6 +106,10 @@ button, .btn {
     background: #4ebbb5;
     color: #fff;
 }
+input[type="radio"],
+input[type="checkbox"] {
+    background-color: #fff !important;
+}
 button:hover {
     background: #fff;
     color: #4ebbb5;
@@ -119,8 +125,13 @@ footer #copyright {
 }
 
 
+/* ===============================================
+Media Queries
+=================================================*/
 
+@media (min-width: 768px)  {
 
+}
 
 
 
