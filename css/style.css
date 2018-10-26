@@ -136,7 +136,23 @@ Media Queries
    .form-container {
        display: flex;
    }
-  
+  .item1 {
+      width: 40%;
+      margin-top: 20px;
+  }
+  .item2 {
+      width: 100%;
+  }
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      select { 
+        margin: 10px;
+  }
+#zip {
+    max-width: 33%;
+    
+}
 }
 
 
