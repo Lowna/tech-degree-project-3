@@ -25,8 +25,6 @@ header {
     background: #2d3945;
     color: #fff;
     padding: 1.5em;
-    position: sticky;
-    top: 0;
 }
 
 /* .container */
@@ -112,34 +110,33 @@ select:focus {
     background: #fff;
     transition: all 0.5s ease-in;
 }
+/*Submit Button*/
 
-button {
-    text-align: center;
+.btn {
     width: 100%;
-    margin: 20px 0 20px 0;
     padding: 1.5em;
     border: none;
     border-radius: 5px;
     background: #4ebbb5;
     color: #fff;
-}
-a {
-    text-decoration: none;
-    width: 100%;
-    font-size: 1.2em;
     font-weight: 700;
+}
+.btn a {
+    text-decoration: none;
     color: #fff;
-    border: none;
-    padding: 0;
+    font-weight: 700;
+}
+button:hover {
+    background: #62eee6;
+    border: 1px solid #4ebbb5;
+    transition: all 0.5s ease-in;
 }
 
-.btn:hover {
-    background: #fff;
-    color: #4ebbb5;
-    font-weight: 700;
-    border: 1px solid #4ebbb5;
-    transition: all 0.2s ease-in;
-}
+
+
+
+
+
 
 
 footer #copyright {
