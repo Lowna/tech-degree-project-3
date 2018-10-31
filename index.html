@@ -19,8 +19,8 @@
         </div><!--/banner-->
     <main><!--main-->
         <form action="index.html" method="post"><!--form-->
-            <h2>Contact Information</h2>
-            <fieldset>
+            <fieldset class="border-sep">
+                <legend>Contact Information</legend>
                  <div class="form-container">
                             <label for="name" class="item1">Full Name:</label>
                             <input type="text" id="name" name="user_name" placeholder="required" required class="item1">
@@ -102,10 +102,9 @@
                             <input type="text" id="zip" name="user_zip" placeholder="99999" class="item2">
                         </div>
                     </fieldset>
-                 <h2 class="news">Newsletter</h2>
-                    
                     <fieldset>
-                       <legend>Select the newsletters you would like to receive</legend>
+                    <legend>Newsletter</legend>
+                       <p>Select the newsletters you would like to receive</p>
                            <input type="checkbox" id="html" value="html_news" name="user_newsletter" class="check_radio">
                            <label for="html">HTML News</label><br>
                       
@@ -116,20 +115,14 @@
                      
                            <input type="checkbox" id="javascript" value="javascript_news" name="user_newsletter" class="check_radio">
                            <label for="javascript">Javascript News</label><br>
-                      
-                    </fieldset>
-
-                    
-                    <fieldset>
-                        <legend>Newsletter format</legend>
+               
+                        <p>Newsletter format</p>
                            <input type="radio" id="html_pref" value="html_pref" name="user_pref" class="check_radio">
                            <label for="html_pref">HTML</label><br>
 
                            <input type="radio" id="plain_pref" value="plain_pref" name="user_pref" class="check_radio">
                            <label for="plain_pref">Plain text</label><br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Other topics you&#39;d like to hear about</legend>
+                        <p>Other topics you&#39;d like to hear about</p>
                         <textarea name="user_topics" id="topic" cols="30" rows="10"></textarea>
                     </fieldset>
                         <br>

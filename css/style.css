@@ -54,9 +54,10 @@ main {
     padding-left: 15px;
     padding-right: 15px;
 }
-.news {
-    border-top: 2px solid #2d3945;
-    margin-top: 30px;
+.border-sep {
+    border-bottom: 2px solid #2d3945;
+    padding-bottom: 10px;
+   
 }
 
 /* form */
@@ -72,6 +73,10 @@ fieldset {
 }
 legend {
     text-align: left;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
 label {
     display: inline;
@@ -131,14 +136,6 @@ button:hover {
     border: 1px solid #4ebbb5;
     transition: all 0.5s ease-in;
 }
-
-
-
-
-
-
-
-
 footer #copyright {
     padding: 1em 1em 4em 1em;
 }
